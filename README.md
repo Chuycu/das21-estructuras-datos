@@ -76,7 +76,7 @@ cabeza ←→ Nodo(Usuario) ←→ Nodo(Usuario) ←→ Nodo(Usuario) → None
 | `buscar_por_id(id)` | O(n)        | Búsqueda lineal por ID                           |
 | `obtener_siguiente(id)` | O(n)    | Retorna el `usuario` del nodo siguiente          |
 | `obtener_anterior(id)`  | O(n)    | Retorna el `usuario` del nodo anterior           |
-| `eliminar(id)`      | O(n)        | Desenlaza el nodo y reconecta punteros vecinos   |
+
 
 **Uso en la UI:** los botones **← Anterior** y **Siguiente →** de la pantalla de gestión navegan directamente a través de los punteros `.anterior` y `.siguiente` del nodo actual, demostrando la ventaja de la lista doblemente enlazada frente a un arreglo indexado.
 
