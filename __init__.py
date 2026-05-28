@@ -1,0 +1,1 @@
+from .models import calcular_resultados, Resultado
